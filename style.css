@@ -246,7 +246,7 @@ li.active{
 }
 .contact{
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 85px 0;
 }
 .contact>h1{
@@ -388,6 +388,7 @@ form textarea:focus{
     }
     .filter-gallery{
         margin-top: 0px;
+        /* margin-left: 60px; */
     }
     .portfolio-menu ul li{
         font-size: 15px;
@@ -405,29 +406,31 @@ form textarea:focus{
         margin-bottom: 30px;
     }
     .chat{
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
     .fa-brands{
         font-size: 23px;
     }
     .contact{
-        border: 2px solid red;
         padding: 0;
-        height: 80vh;
+        /* height: 60vh; */
     }
     .contact-row{
+        margin-top: 20px;
         display: block;
     }
     .contact-form{
         display: none;
     }
     .footer{
-        margin-top: 0;
         height: 70px;
         
     }
     textarea{
         display: none;
+    }
+    .footer{
+        margin-top: 20px;
     }
     .footer-resreved p{
         margin-top: 10px;
