@@ -15,15 +15,14 @@ nav{
     display: flex;
     width: 100%;
     height: 60px;
-    background-color: white;
     color: black;
+    background:linear-gradient(to right, #f9e7fe, #dafcfc);
     justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
-	/* border-bottom: 1.3px solid #e73c3c; */
-    box-shadow: 0px 2px 10px #313131;
+	border-bottom: 1.3px solid #e73c3c;
 }
 .logo{
     font-weight: bolder;
@@ -69,6 +68,7 @@ span{
     color:  #2D88E2;
     padding: 0 10px;
 }
+
 .profile .left img{
     width: 60px;
     color: #e73c3c;
@@ -89,7 +89,7 @@ span{
 header{
     background:linear-gradient(to right, #f9e7fe, #dafcfc);
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
 }
 .wrapper{
     width: 100%;
@@ -212,8 +212,8 @@ li.active{
 /* ------------------blog------------ */
 
 .blog{
-    padding: 9rem 2rem 0 0;
-    margin-bottom: 80px;
+    padding: 5rem 2rem 0 0;
+    margin-bottom: 40px;
 }
 .blog img{
     width: 50px;
@@ -247,7 +247,7 @@ li.active{
 .contact{
     width: 100%;
     height: 100vh;
-    padding: 100px 0;
+    padding: 85px 0;
 }
 .contact>h1{
     text-align: center;
@@ -335,14 +335,16 @@ form textarea:focus{
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+    transition: 0.5s ease-in-out;
 }
 .btn:hover{
     color: #e73c3c;
-    background: #000;
+    border: 2px solid #e73c3c;
+    background: transparent;
 }
 .footer{
     margin-top: 150px;
-    background: #000;
+    background: rgb(49, 49, 49);
     height: 100px;
 }
 .footer-icons{
@@ -365,7 +367,7 @@ form textarea:focus{
         display: none;
     }
     header{
-        height: 30vh;
+        height: 60vh;
     }
     .profile{
         display: block;
@@ -374,13 +376,14 @@ form textarea:focus{
         text-align: center;
         width: 100%;
         padding: 0;
-        margin-top: 400px;
+        margin-top: 430px;
+        padding-top: 30px;
     }
 
     .profile .right{
         height: auto;
         margin-right: 0px;
-        margin-top: -520px;
+        margin-top: -550px;
 
     }
     .filter-gallery{
@@ -407,6 +410,11 @@ form textarea:focus{
     .fa-brands{
         font-size: 23px;
     }
+    .contact{
+        border: 2px solid red;
+        padding: 0;
+        height: 80vh;
+    }
     .contact-row{
         display: block;
     }
@@ -416,6 +424,7 @@ form textarea:focus{
     .footer{
         margin-top: 0;
         height: 70px;
+        
     }
     textarea{
         display: none;
